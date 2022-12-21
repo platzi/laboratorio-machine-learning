@@ -1,0 +1,5 @@
+Model,Accuracy,Precision Churn=NO,Precision Churn=YES,Best params
+Boosting,0.8901443816698054,0.9056950398040416,0.8737926593689633,{'max_depth': 10}
+RandomTreeForest,0.8775894538606404,0.8922229026331905,0.8622021893110109,"{'criterion': 'gini', 'max_depth': 10, 'n_estimators': 50}"
+SVC,0.869428750784683,0.8983466013472137,0.8390212491951062,"{'C': 1.5, 'kernel': 'rbf'}"
+KNeighbors,0.849654739485248,0.893447642375995,0.8036059240180297,{'n_neighbors': 6}
