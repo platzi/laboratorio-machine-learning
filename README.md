@@ -1,3 +1,26 @@
+<br />
+
+<p align="center">
+
+
+  <h3 align="center">Machine learning model lab</h3>
+
+  <p align="center">
+    Reto escuela de ciencia de datos Platzi.
+    <br />
+    <br />
+</p>
+
+## Introducción
+
+El reto consiste en realizar mejoras a un modelo de machine learning de aprendizaje supervisado de clasificación, el cual busca predecir la variable "Churn" (Renuncia voluntaria de los servicios contratados) de un dataset de clientes perteneciente a una empresa de telecomunicaciones.
+
+Y por ende también se hace necesario modificar el script de la API (Flask) con la que se realiza las predicciones del modelo.
+
+A continuacion se encuentra el README original del repositorio del laboratorio/reto.
+
+---
+---
 # laboratorio-machine-learning
 API Simple que sirve un modelo para la prevención del Churn
 
@@ -37,7 +60,4 @@ Si todo esta bien, deberías de obtener una respuesta así
 * Juan Perez Nombrefalso
 * Ricardo Alanís Tamez
 
-#### Contribuir
-
-Hacer fork del repositorio y mandar pull request con los cambios propuestos
 
