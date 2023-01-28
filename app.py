@@ -3,7 +3,7 @@ import json
 from flask import Flask, request
 import pandas as pd
 
-
+#carga modelo
 FEATURES = pickle.load(open("churn/models/features.pk", "rb"))
 
 model = pickle.load(open("churn/models/model.pk", "rb"))
