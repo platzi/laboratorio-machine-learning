@@ -1,2 +1,2 @@
-pandas==2.18.4
-sklearn==1.3.4
+pandas==1.5.3
+scikit-learn==1.2.1 

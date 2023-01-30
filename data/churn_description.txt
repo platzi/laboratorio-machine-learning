@@ -1,0 +1,38 @@
+
+DATA FRAME INFO:
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 11 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   CreditScore      10000 non-null  int64  
+ 1   Geography        10000 non-null  int8   
+ 2   Gender           10000 non-null  int8   
+ 3   Age              10000 non-null  int64  
+ 4   Tenure           10000 non-null  int64  
+ 5   Balance          10000 non-null  float64
+ 6   NumOfProducts    10000 non-null  int64  
+ 7   HasCrCard        10000 non-null  int64  
+ 8   IsActiveMember   10000 non-null  int64  
+ 9   EstimatedSalary  10000 non-null  float64
+ 10  Exited           10000 non-null  int64  
+dtypes: float64(2), int64(7), int8(2)
+memory usage: 722.8 KB
+________________________________________
+
+COLUMNS DESCRIPTION:
+
+ 0   CreditScore: A credit score is a numerical expression
+        based on a level analysis of a person's credit files, to 
+        represent the creditworthiness of an individual.     
+ 1   Geography: client's country       
+ 2   Gender:          
+ 3   Age:             
+ 4   Tenure: permanence with the company          
+ 5   Balance:         
+ 6   NumOfProducts: number of products per customer   
+ 7   HasCrCard: Has Crdedit Card       
+ 8   IsActiveMember: Is Active Member  
+ 9   EstimatedSalary: Estimated Salary 
+ 10  Exited: stay with the company          
