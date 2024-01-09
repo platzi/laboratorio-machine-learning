@@ -3,11 +3,9 @@ import json
 from flask import Flask, request
 import pandas as pd
 
-
-FEATURES = pickle.load(open("../models/features.pk", "rb"))
-
-model = pickle.load(open("../models/model.pk", "rb"))
-column_equivalence = pickle.load(open("../models/column_equivalence.pk", "rb"))
+FEATURES = pickle.load(open("models/features.pk", "rb"))
+model = pickle.load(open("models/model.pk", "rb"))
+column_equivalence = pickle.load(open("models/column_equivalence.pk", "rb"))
 
 # create the Flask app
 app = Flask(__name__)
@@ -37,4 +35,4 @@ def query_example():
 
 if __name__ == '__main__':
     # run app in debug mode on port 3001
-    app.run(debug=True, port=3001)
+    app.run(host='0.0.0.0', port=3001, debug=True)
