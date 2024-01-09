@@ -1,0 +1,31 @@
+# Ignorar archivos de Python bytecode
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+db.sqlite3-journal
+
+# Ignorar directorios de entornos virtuales
+venv
+.env
+.virtualenv
+
+# Ignorar directorios de Git y archivos temporales
+.git
+.gitignore
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignorar archivos y directorios de pruebas
+tests
+*.test
+*.spec
+
+# Ignorar archivos y carpetas específicas del proyecto (ajustar según sea necesario)
+# Por ejemplo, si tienes directorios o archivos de datos que no necesitas en la imagen
+# data
+# models
